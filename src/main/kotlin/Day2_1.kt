@@ -3,7 +3,7 @@ import java.io.InputStream
 import kotlin.streams.asSequence
 
 fun main() {
-    val inputStream: InputStream = File("./com/example/aoc2023/input/day2.txt").inputStream()
+    val inputStream: InputStream = File("./src/main/resources/day2.txt").inputStream()
 
     val max = mapOf(
         "red" to 12,

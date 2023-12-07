@@ -4,7 +4,7 @@ import kotlin.streams.asSequence
 
 
 fun main() {
-    val inputStream: InputStream = File("./com/example/aoc2023/input/day4.txt").inputStream()
+    val inputStream: InputStream = File("./src/main/resources/day4.txt").inputStream()
     val lineRegex = "(Card\\s+\\d+:)\\s+(?<winningNumbers>(\\d+\\s*)+) \\|\\s+(?<gameNumbers>(\\d+\\s*)+)".toRegex()
     val intRegex = "\\d+".toRegex()
 

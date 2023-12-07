@@ -23,7 +23,7 @@ fun main() {
         "nine" to 9,
         "9" to 9
     )
-    val inputStream: InputStream = File("./com/example/aoc2023/input/day1.txt").inputStream()
+    val inputStream: InputStream = File("./src/main/resources/day1.txt").inputStream()
     val regexFirst = "(${validDigits.keys.joinToString("|")})".toRegex()
     val regexLast = "(${validDigits.keys.joinToString("|"){ it.reversed() }})".toRegex()
 

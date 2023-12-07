@@ -46,7 +46,7 @@ fun getGearRatios(input: List<Pair<List<MatchResult>, Sequence<Int>>>): List<Int
     }
 
 fun main() {
-    val inputStream: InputStream = File("./com/example/aoc2023/input/day3.txt").inputStream()
+    val inputStream: InputStream = File("./src/main/resources/day3.txt").inputStream()
     val intRegex = "(\\d+)".toRegex()
 
     val input = inputStream.bufferedReader().lines()
